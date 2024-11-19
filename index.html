@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouquet Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            color: #333;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background-color: #3A4528;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 20px;
+            gap: 60px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #8F9779;
+            text-decoration: underline;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #3A4528; /* Olive green */
+            color: white;
+        }
+
+        .title {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin: 5px 0 20px;
+            color: #D4AF37; /* Gold */
+        }
+
+        /* Gallery grid */
+        .gallery {
+            display: grid;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .flower-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .flower-image {
+            width: 95%;
+            height: 400px;
+            object-fit: cover;
+            border-bottom: 2px solid #3A4528;
+        }
+
+        .bouquet-name {
+            font-size: 20px;
+            margin: 15px 0 5px;
+            color: #3A4528;
+        }
+
+        .bouquet-description {
+            font-size: 14px;
+            color: #666;
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="bouquet.html">Bouquet Gallery</a></li>
+        <li><a href="plants.html">Plant Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </nav>
+<div class="content">
+    <h1>Contact Us</h1>
+    <p>Email: contact@flowergallery.com</p>
+    <p>Phone: 123-456-7890</p>
+</div>
+
+
+</body>
+</html>
